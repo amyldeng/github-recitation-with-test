@@ -7,6 +7,11 @@ Negative numbers should return None
 """
 def fibonacci(position):
 
+
+  if position == 0:
+    return 0
+
+
   if (position < 0):
     return None
   elif(position == 1 or position == 2):
